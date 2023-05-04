@@ -25,3 +25,4 @@ ifconfig | grep "inet " | awk '{print $2}'
 echo ""
 echo "Adresy IPv6:"
 ifconfig | grep "inet6 " | awk '{print $2}'
+
